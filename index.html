@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Transform Dynamic Carousel</title>
+</head>
+<body>
+  <div class="container">
+    <div class="carousel-container">
+      <div class="carousel">
+        <div class="cell"><span>1</span></div>
+        <div class="cell"><span>2</span></div>
+        <div class="cell"><span>3</span></div>
+        <div class="cell"><span>4</span></div>
+        <div class="cell"><span>5</span></div>
+        <div class="cell"><span>6</span></div>
+        <div class="cell"><span>7</span></div>
+        <div class="cell"><span>8</span></div>
+        <div class="cell"><span>9</span></div>
+        <div class="cell"><span>10</span></div>
+        <div class="cell"><span>11</span></div>
+        <div class="cell"><span>12</span></div>
+        <div class="cell"><span>13</span></div>
+        <div class="cell"><span>14</span></div>
+        <div class="cell"><span>15</span></div>
+      </div>
+    </div>
+    <div class="carousel-options">
+      <p>
+        <button class="previous-button">Previous</button>
+        <button class="next-button">Next</button>
+      </p>
+      <p>
+        <label>
+          Cells
+          <input class="cells-range" type="range" min="3" max="15" value="9" />
+        </label>
+      </p>
+      <p>
+        Orientation:
+        <label>
+          <input type="radio" name="orientation" value="horizontal" checked />
+          horizontal
+        </label>
+        <label>
+          <input type="radio" name="orientation" value="vertical" />
+          vertical
+        </label>
+      </p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
